@@ -1,0 +1,23 @@
+How to install Pandas
+To install Pandas, follow these steps:
+
+-> Step 1: Open Your Command Line Interface (CLI)
+
+Windows: Open Command Prompt (Search for "cmd" or "Command Prompt").
+MacOS/Linux: Open Terminal.
+
+-> Step 2: Install Pandas using pip
+Run the following command:
+
+pip install pandas
+
+If you are using Python 3 (which is the most common case nowadays), you might want to use pip3 instead of pip:
+
+pip3 install pandas
+
+-> Step 3: Verify Installation
+After installation, you can check if Pandas was installed successfully by running the following command:
+
+python -c "import pandas as pd; print(pd.version)"
+
+This will print the installed version of Pandas.
